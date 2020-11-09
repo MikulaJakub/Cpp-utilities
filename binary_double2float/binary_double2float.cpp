@@ -29,6 +29,7 @@ int main(int argc, char *argv[])
 	{
 		cout << ' ' << endl;
 		cout <<BOLDRED<< "No input file provided!" <<RESET<< endl;
+		cout <<BOLDRED<< "Input file name comes as the first command line argument." <<RESET<<endl;
 		cout <<BOLDRED<< "Process terminated!" <<RESET<<endl;
 		cout << ' ' << endl;
 		return(1);
@@ -93,6 +94,7 @@ int main(int argc, char *argv[])
 	in_file.close();
 
 	cout <<BOLDGREEN<< "Program has finished!" <<RESET<<endl;
+	cout <<BOLDGREEN<< "The file is saved under the name output.bin" <<RESET<<endl;
 	cout << ' ' << endl;	
 
 	return(0);
